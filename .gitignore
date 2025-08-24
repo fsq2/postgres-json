@@ -1,0 +1,51 @@
+# ---------------------------
+# Python
+# ---------------------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+*.log
+*.tmp
+*.swp
+.env
+.venv/
+venv/
+
+# ---------------------------
+# Jupyter
+# ---------------------------
+.ipynb_checkpoints/
+*.ipynb_convert/
+
+# ---------------------------
+# Spark / Structured Streaming checkpoints
+# ---------------------------
+app/checkpoints/
+**/checkpoints/**
+
+# ---------------------------
+# ClickHouse runtime data
+# ---------------------------
+clickhouse/data/
+clickhouse/data/**
+
+# ---------------------------
+# Docker / Compose
+# ---------------------------
+*.pid
+*.seed
+*.pid.lock
+docker-compose.override.yml
+
+# ---------------------------
+# System files
+# ---------------------------
+.DS_Store
+Thumbs.db
+
+# ---------------------------
+# VSCode
+# ---------------------------
+.vscode/
+.history/
